@@ -1,0 +1,42 @@
+HTML Paragraphs
+
+The HTML <p> element defines a paragraph:
+Example
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p> 
+
+HTML Display
+You cannot be sure how HTML will be displayed.
+Large or small screens, and resized windows will create different results.
+With HTML, you cannot change the output by adding extra spaces or extra lines in your HTML code.
+Don't forget to end the tag or it will continue as the same tag we are using.
+The browser will remove any extra spaces and extra lines when the page is displayed:
+<p>
+This paragraph
+contains a lot of lines
+in the source code,
+but the browser 
+ignores it.
+</p>
+Output:
+This paragraph contains a lot of lines in the source code, but the browser ignores it. 
+<p>
+This paragraph
+contains      a lot of spaces
+in the source     code,
+but the    browser 
+ignores it.
+</p>
+Output:
+This paragraph contains a lot of spaces in the source code, but the browser ignores it. 
+And here is how you add paragraph tag in a full HTML code:
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Paragraph Tag</title>
+  </head>
+  <body>
+  <p>Hello! How are you doing?</p>
+  </body>
+  </html>
